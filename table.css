@@ -1,0 +1,17 @@
+.table {
+  display: flex;
+
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+table, tr, th, td {
+  border: 5px solid darkgoldenrod;
+  border-collapse: collapse;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+}
