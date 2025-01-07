@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+form {
+  margin: 10px;
+}
+form > label {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+form > fieldset {
+  margin-bottom: 10px;
+  width: 350px;
+}
