@@ -1,0 +1,46 @@
+body {
+  background: rgb(61, 0, 118);
+}
+div {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 300px;
+}
+button {
+  display: block;
+  width: 345px;
+  background: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+h2 {
+  font-size: 40px;
+  background-color: rgb(117, 0, 227);
+  border: 5px solid white;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  width: 300px;
+  padding: 20px;
+  display: block;
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: bolder;
+}

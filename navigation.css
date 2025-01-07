@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+ ul {
+  background: rgb(2, 87, 199);
+  padding: 20px;
+  text-align: center;
+ }
+
+ul > li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  position: relative;
+}
+
+ul > li > a:hover {
+  background: rgb(120, 171, 237);
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+ul > li > ul {
+  display: none;
+  position: absolute;
+  right: -95px;
+  top: 37px;
+}
+
+
+ul > li > ul > li > a {
+  display: block;
+  width: 80px;
+  background: magenta;
+  overflow: hidden;
+}
+ul > li:hover ul { 
+  display: block;
+}
